@@ -4,7 +4,7 @@ import sys, time
 from socket import *
 
 count = 1000
-BUFSIZE = 2048000
+BUFSIZE = 1024000
 ip=input("ip: ")
 port=input("Port: ")
 def client():

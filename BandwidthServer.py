@@ -4,7 +4,7 @@ import sys, time
 from socket import *
 import threading
 
-BUFSIZE = 2048000
+BUFSIZE = 1024000
 port = input("Port: ")
 def server():
     s = socket(AF_INET, SOCK_STREAM)
