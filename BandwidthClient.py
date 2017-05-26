@@ -1,7 +1,9 @@
+#!/usr/bin/python3
+
 import sys, time
 from socket import *
 
-count=1000
+count = 1000
 BUFSIZE = 2048000
 ip=input("ip: ")
 port=input("Port: ")
